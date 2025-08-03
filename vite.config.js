@@ -11,5 +11,6 @@ export default defineConfig({
     server: {
     host: '0.0.0.0',       // IMPORTANT!
     port: process.env.PORT || 5173, // Render sets a PORT env variable
+    allowedHosts: ['.onrender.com']
   }
 })
