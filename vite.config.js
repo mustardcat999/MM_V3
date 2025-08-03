@@ -8,4 +8,8 @@ export default defineConfig({
     react(),
     // tailwindcss()
   ],
+    server: {
+    host: '0.0.0.0',       // IMPORTANT!
+    port: process.env.PORT || 5173, // Render sets a PORT env variable
+  }
 })
