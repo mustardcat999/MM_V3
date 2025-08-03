@@ -1,0 +1,12 @@
+.center-align-vertical{
+
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    gap: 8px; /* Adds spacing between the icon and text */
+  }
+  
+  .center-align-vertical i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
